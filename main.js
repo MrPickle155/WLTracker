@@ -86,7 +86,15 @@
           if (/\d/.test(this.value.charAt(i)) == true) {
             Sday = this.value.charAt(i);
 
-            document.getElementById("SR").innerHTML = "Wins: " + Wdays[Sday - 1][6] + " | " + "Losses: " + Ldays[Sday - 1][6];
+            document.getElementById("SDR").innerHTML = "Day: " + Sday;
+
+            document.getElementById("SDR").style.marginLeft = "170px";
+            document.getElementById("SR").innerHTML = "Wins: " + "N/A" + " | " + "Losses: " + "N/A";
+
+            if (/\d/.test(Wdays[Sday - 1][6]) && /\d/.test(Ldays[Sday - 1][6]) ) {
+              document.getElementById("SDR").style.marginLeft = "140px";
+              document.getElementById("SR").innerHTML = "Wins: " + Wdays[Sday - 1][6] + " | " + "Losses: " + Ldays[Sday - 1][6];
+            }
 
             break;
           }
