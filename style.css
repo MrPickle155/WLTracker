@@ -1,0 +1,62 @@
+    body {
+      background-image: url("https://cdn.discordapp.com/attachments/1063595973319872665/1080996156210942002/image.PNG");
+      background-repeat: no-repeat;
+      background-size: 2000px 1000px;
+    }
+    .WText {
+      padding-left: 50px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .LText {
+      padding-left: 100px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .WButtons {
+      margin-left: 72px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .LButtons {
+      margin-left: 155px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .W {
+      margin: 82px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .L {
+      margin: 92px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    #FD {
+      margin-left: 108px;
+      font-size: 30px;
+      border: none;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #DSL {
+      margin-left: 50px;
+      font-weight: bold;
+    }
+    #DS {
+      font-weight: bold;
+    }
+
+    #SR {
+      font-size: 30px;
+      margin-left: 70px;
+    }

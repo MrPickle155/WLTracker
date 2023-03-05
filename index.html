@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WL Tracker</title>
+  </head>
+  <body>
+    <h1 style="padding-left: 100px">WL Tracker</h1>
+    <p style="padding-left: 75px">Keep Track of Your Wins and Losses</p>
+  </body>
+  <link rel="stylesheet" href="style.css" />
+  <div>
+    <span style="display: inline">
+      <label for="W" class="WText">Wins</label>
+      <label for="L" class="LText">Losses</label>
+    </span>
+  </div>
+
+  <br />
+
+  <div>
+    <span style="display: inline">
+      <input
+        type="submit"
+        value="+"
+        id="W+"
+        style="height: 40px; width: 40px"
+        class="WButtons"
+      />
+      <input
+        type="submit"
+        value="+"
+        id="L+"
+        style="height: 40px; width: 40px"
+        class="LButtons"
+      />
+    </span>
+  </div>
+
+  <div>
+    <span style="display: inline">
+      <label for="W" id="W" class="W">0</label>
+      <label for="L" id="L" class="L">0</label>
+    </span>
+  </div>
+
+  <div>
+    <span style="display: inline">
+      <input
+        type="submit"
+        value="-"
+        id="W-"
+        style="height: 40px; width: 40px"
+        class="WButtons"
+      />
+      <input
+        type="submit"
+        value="-"
+        id="L-"
+        style="height: 40px; width: 40px"
+        class="LButtons"
+      />
+    </span>
+  </div>
+
+  <br />
+  <input type="submit" value="Finsh Day" id="FD" />
+  <div>
+    <br />
+    <br />
+    <label for="DS" id="DSL">Day Search:</label>
+    <input type="text" id="DS" />
+  </div>
+  <p id="SR"></p>
+  <script src="main.js"></script>
+</html>
